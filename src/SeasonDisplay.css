@@ -1,0 +1,39 @@
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.season-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.season-display.winter i {
+    color: dodgerblue;
+}
+
+.season-display.summer i {
+    color: red;
+}
+
+.season-display.summer h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #000;
+}
+
+.winter {
+    background-color: aliceblue;
+}
+
+.summer {
+    background-color: orange;
+}
