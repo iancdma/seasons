@@ -1,39 +1,43 @@
 .icon-left {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .icon-right {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .season-display {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .season-display.winter i {
-    color: dodgerblue;
+  color: dodgerblue;
 }
 
 .season-display.summer i {
-    color: red;
+  color: red;
 }
 
 .season-display.summer h1 {
-    color: white;
-    text-shadow: 2px 2px 0px #000;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+
+.season-display.winter h1 {
+  text-shadow: 2px 2px #eee;
 }
 
 .winter {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 .summer {
-    background-color: orange;
+  background-color: orange;
 }
